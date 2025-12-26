@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #E0D0C1;
+
+}
+
+h1{
+    text-align: center;
+    color: #601700;
+    font-size: 70px;
+}
+.hide{
+    display: none;
+}
+.msg{
+    text-align: center;
+    font-size: 30px;
+}
+.newbtn{
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+}
+.dabba{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 50px;
+    background-color: #A76D60;
+    border-radius: 10px;
+    color: #ECE5DD;
+}
+.resetbtn{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:antiquewhite;
+}
+.Reset{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* Make game responsive */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 40px; /* smaller heading */
+    }
+
+    .msg {
+        font-size: 20px;
+    }
+
+    .newbtn,
+    .resetbtn {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .dabba {
+        height: 50vh; /* reduce container height */
+        gap: 10px;
+    }
+
+    .game {
+        height: 90%; /* scale with container */
+        width: 90%;
+        gap: 8px;
+    }
+
+    .btn {
+        height: 25%; /* 3x3 grid = each button ~1/3 of container */
+        width: 25%;
+        font-size: 25px;
+    }
+}
+
+/* Make game responsive for medium screens too */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .msg {
+        font-size: 25px;
+    }
+
+    .btn {
+        font-size: 35px;
+    }
+}
