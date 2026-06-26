@@ -74,11 +74,8 @@ Or run using **VS Code Live Server**.
 ## 📸 Gameplay Preview
 
 <p align="center">
-  <img src="./preview.jpg" alt="Gameplay Preview" width="350">
+  <img src="preview.jpg" alt="Gameplay Preview" width="350">
 </p>
-
-> Replace `preview.jpg` with your actual image name if it is different.
-
 ---
 
 ## 💡 Future Improvements
